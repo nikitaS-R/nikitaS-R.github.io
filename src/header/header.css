@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    color:aliceblue;
+    background: rgba(222, 217, 217, 0.5);
+}
+.logo-image{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo-image label{
+    padding-left: 10px;
+}
+.appBar-header{
+    width: 100%;
+    height: 60px;
+    background: rgb(193,101,221);
+    background: linear-gradient(90deg, rgba(193,101,221,1) 0%, rgba(92,39,254,1) 100%);
+    box-shadow: rgba(93, 39, 254, 0.89) 0px 5px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.valutes{
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+}
+.valutes-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.valutes-content img{
+    margin-right: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width:390px) {
+    .appBar-header{
+        flex-direction: column;
+        height:140px;
+    }
+}
